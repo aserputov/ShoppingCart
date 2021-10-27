@@ -1,0 +1,555 @@
+body {
+  text-decoration: "none";
+  color: "black";
+}
+.check {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+nav {
+  letter-spacing: 3px;
+}
+nav button:hover{
+  text-decoration: none;
+  color: #d81b60;
+  border-color:  #d81b60;
+}
+.top {
+  /* background-color: yellow; */
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  
+}
+.mainrow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+:root {
+  --theme-color: #f9fafb;
+}
+.topp:hover {
+  border-radius: 30px;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
+  
+}
+.top:hover {
+  /* background-color: rgba(12 15 25 / 30%); */
+  text-decoration: none;
+  color: #d81b60;
+
+  /* border-bottom: 2px solid var(--theme-color); */
+}
+.add {
+  margin: 10rem;
+  padding: 10rem;
+}
+.remove {
+  margin: 10rem;
+  padding: 10rem;
+}
+.row {
+  display: flex;
+  align-self: flex-start;
+
+  width: 100%;
+  height: auto;
+  padding: 0.3vw;
+  margin: 0.5vw;
+}
+
+.something {
+  /* border: black solid 1px; */
+  padding-top: 1rem;
+}
+.somethingnew {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.somethingn {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://cdn.discordapp.com/attachments/739625794564915274/844336521934143528/Screen_Shot_2021-05-18_at_6.11.28_PM.png");
+}
+
+.forimage {
+  margin-right: 5vw;
+}
+.forimage img {
+  padding-top: 1vw;
+  width: 26vw;
+  height: 80%;
+  border-radius: 2vw;
+
+  /* margin-left: 2vw; */
+}
+.forimage button {
+  text-align: right;
+  /* margin-left: 2vw; */
+}
+
+.responsive {
+  margin: 0.2vw;
+  width: 70%;
+  height: auto;
+  border-radius: 1vw;
+}
+.responsives {
+  margin: 0.2vw;
+  width: 100%;
+  height: 30%;
+  border-radius: 1vw;
+}
+.prod {
+  width: 20vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 0.3vw;
+  text-align: center;
+}
+.cheese {
+  height: 29vh;
+  padding: 4vw;
+  margin: 0.3vw;
+  border-radius: 2vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+}
+.s1 {
+  display: inline-block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/388_nofrills.jpg");
+  background-size: 20vh;
+}
+.s2 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/34334.png");
+  background-size: 19vh;
+}
+.s3 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-size: 18vh;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/yummy-market-logo.png");
+}
+.s4 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/111.png");
+  background-size: 20vh;
+}
+.s5 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/Artboard-1.png");
+  background-size: 20vh;
+}
+.s6 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/bWKhe2lOpss5SJts_LOGO_eng.png");
+  background-size: 16vh;
+}
+.s7 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Coppas.png");
+  background-size: 18vh;
+}
+.s8 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Starsky.png");
+  background-size: 19vh;
+}
+.s9 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Ambrosia.png");
+  background-size: 19vh;
+}
+.s10 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Akivas.png");
+  background-size: 19vh;
+}
+.s11 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Angelas-Deli.png");
+  background-size: 18vh;
+}
+.s12 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Bathurst-Village-Market.png");
+
+  background-position: center;
+  background-size: 20vh;
+}
+.s13 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/EuroMax.png");
+  background-size: 19vh;
+}
+.s14 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Future-Bakery.png");
+  background-size: 19vh;
+}
+.s15 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Georgian-Natural-Products.png");
+  background-size: 19vh;
+}
+.s16 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/IDF.png");
+  background-size: 19vh;
+}
+.s16 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/KTW-Kakhetian-traditional-winemaiking.png");
+  background-size: 19vh;
+}
+.s17 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Mimino.png");
+  background-size: 19vh;
+}
+.s18 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/LTD-Dabi.png");
+  background-size: 19vh;
+}
+.s19 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Mellat.png");
+  background-size: 19vh;
+}
+.s20 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Nena.jpg");
+  background-size: 19vh;
+}
+.s21 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Pirosmani.png");
+  background-size: 19vh;
+}
+.s22 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2020/10/Steeles-Bakery.png");
+  background-size: 19vh;
+}
+.s23 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/f1d6bf64a0ecb4ee9c5c6d65396ab2b9-1.png");
+  background-size: 19vh;
+}
+.s24 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://sweezard.com/wp-content/uploads/2021/05/Screenshot_1-1.jpg");
+  background-size: 19.6vh;
+}
+.s25 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://cdn.discordapp.com/attachments/739625794564915274/844336521934143528/Screen_Shot_2021-05-18_at_6.11.28_PM.png");
+  background-size: 20vh;
+}
+.s26 {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
+  border-radius: 0.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  /* 6d8ffd */
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url("https://cdn.discordapp.com/attachments/739625794564915274/844336521934143528/Screen_Shot_2021-05-18_at_6.11.28_PM.png");
+}
